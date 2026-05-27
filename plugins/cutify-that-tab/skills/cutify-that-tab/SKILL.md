@@ -4,28 +4,28 @@ description: |
   Add a cute, hand-authored SVG favicon to a web app — the tiny icon that
   shows in the browser tab. Use when the user asks to add a favicon, browser
   tab icon, tab logo, page icon, site icon, or "cute thing in the tab," or
-  says the current tab shows a blank/default square. Covers 4 techniques
+  says the current tab shows a blank/default square. Covers 3 techniques
   in increasing effort: (A) emoji-as-favicon via inline SVG data URI — zero
   assets; (B) gradient mascot blob — a soft blob shape with a face built
   from circles + a quadratic-curve smile; (C) 16×16 pixel-art sticker using
-  SVG <rect> on an integer grid with shape-rendering="crispEdges"; (D) sticker
-  with text — rounded shape + chunky <text> element for product initials.
+  SVG <rect> on an integer grid with shape-rendering="crispEdges" (bunny,
+  bear, chick, mochi cat, ghost, frog, strawberry, cloud, dango, bee, ...).
   Includes the modern `<link rel="icon" type="image/svg+xml">` recipe (no
   more .ico files, no PNG fallbacks needed for modern browsers), tab-size
   verification, and which technique fits which vibe. Skip if the user wants
   a corporate/photographic logo — this skill is for hand-authored, cute,
   low-effort icons.
 author: Claude Code
-version: 1.6.0
+version: 1.7.0
 date: 2026-05-27
 ---
 
 # Cutify That Tab ✨
 
-Put something cute in the browser tab. Four techniques, all SVG, all
+Put something cute in the browser tab. Three techniques, all SVG, all
 hand-authorable in a single file. Pick whichever vibe — a smiling gradient
-blob, a 16×16 pixel-art sticker, an emoji, or your product's initials on
-a pastel chip. The tab is small real estate; spend ten minutes making it
+blob, a 16×16 pixel-art mascot (bunny, ghost, bear, mochi cat, ...), or
+just an emoji. The tab is small real estate; spend ten minutes making it
 delightful.
 
 ## Problem
@@ -54,16 +54,15 @@ are different problems requiring different tooling.
 
 ### Step 1 — pick the technique (vibe-driven)
 
-Four techniques. Pick before authoring; switching mid-way is wasted work.
+Three techniques. Pick before authoring; switching mid-way is wasted work.
 
 | # | Technique | Effort | When to pick it |
 |---|---|---|---|
 | **A** | **Emoji favicon** | 0 min — one `<link>` tag | User wants instant-cute, zero asset files, OK with rendering as the OS's emoji font (slightly different on Mac vs Windows vs Linux). Examples: 🦊 🦦 🍡 🌈 🪼 🐸 🌷 |
 | **B** | **Gradient mascot blob** | 5-10 min | App has a brand gradient and the favicon should rhyme with it. Soft, friendly. ~12 SVG elements. |
 | **C** | **16×16 pixel-art sticker** | 10-15 min | Indie / "internal tool with personality" vibe. Web 1.0 charm. Renders pixel-perfect at native tab size. ~10 `<rect>` elements per icon. |
-| **D** | **Text sticker** | 5 min | App's name/initials need to stay visible in the tab. Soft rounded shape + 3 chunky letters. |
 
-When in doubt, present the user options A-D with example renders before
+When in doubt, present the user options A-C with example renders before
 authoring (the AskUserQuestion preview is great for this). Don't pick for
 them on first ask — vibe matters.
 
@@ -384,30 +383,6 @@ theme: inline the SVG twice into the preview HTML with hardcoded fills
 correctly. See `examples/pixel_ghost_silhouette.svg` and the
 `/tmp/favicon_preview.html` pattern used in field testing.
 
-#### D · Text sticker
-
-Static file. Rounded `<rect>` + `<text>` element:
-
-```xml
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-  <rect x="1" y="1" width="30" height="30" rx="10" fill="#fbcfe8"/>
-  <text x="16" y="22" text-anchor="middle"
-        font-family="-apple-system, system-ui, sans-serif"
-        font-size="11.5" font-weight="800"
-        fill="#831843" letter-spacing="-0.5">KIT</text>
-</svg>
-```
-
-- `font-family="-apple-system, system-ui, sans-serif"` — use the system
-  font, not a webfont; the favicon renders before webfonts load.
-- `font-weight="800"` — anything lighter disappears at 14-16px tab size.
-- `text-anchor="middle"` + `x="16"` (half of viewBox width) centers the
-  text horizontally. Don't try to center via padding.
-- Maximum 3-4 letters or it gets unreadable below 24px. 3 is the sweet
-  spot.
-
-Alternative shapes: heart (`<path>`), cloud (3 overlapping `<ellipse>`s).
-
 ### Step 3 — wire it in
 
 Save the SVG to your project's static dir (e.g. `static/favicon.svg`) and
@@ -717,6 +692,14 @@ tile, not the mascot.
 
 ### Changelog
 
+- **v1.7.0 (2026-05-27):** Removed Technique D (text sticker — initials on
+  a pastel chip) — too utilitarian for a "make it cute" skill. Added 6
+  new pixel-art (Technique C) examples to widen the mascot vocabulary:
+  bunny (peach + pink ears), bear (brown + cream snout), chick
+  (yellow + orange beak/feet), bee (striped + sky-blue wings),
+  strawberry (red + seeds + face), cloud (sky-blue + pink blush). All
+  6 follow the existing pixel_mochi_cat / pixel_ghost style: 16×16
+  viewBox, `shape-rendering="crispEdges"`, ~10-15 `<rect>` elements.
 - **v1.6.0 (2026-05-27):** Tightened the R1 contrast guidance after a
   two-iteration ship failure in field testing. The previous R1 copy
   ("soft pastel contrasts on light + dark + grey tabs") was too
@@ -785,7 +768,14 @@ The `examples/` folder ships starter SVGs you can copy and edit:
 - `examples/blob_brand_grad.svg` — Option B with a sunset gradient + face
 - `examples/blob_mint.svg` — Option B in mint/cyan
 - `examples/blob_wide_eye.svg` — Option B with big anime eyes
+- `examples/blob_sleepy.svg` — Option B with sleepy eyes
 - `examples/pixel_mochi_cat.svg` — Option C, the canonical mochi-cat
+- `examples/pixel_bunny.svg` — Option C, peach bunny with pink ears
+- `examples/pixel_bear.svg` — Option C, brown bear with cream snout
+- `examples/pixel_chick.svg` — Option C, yellow chick with orange beak + feet
+- `examples/pixel_bee.svg` — Option C, striped bee with sky-blue wings
+- `examples/pixel_strawberry.svg` — Option C, red strawberry with seeds + face
+- `examples/pixel_cloud.svg` — Option C, sky-blue cloud with pink blush
 - `examples/pixel_ghost.svg` — Option C, friendly ghost (transparent bg)
 - `examples/pixel_ghost_tile.svg` — Option C-variant 1, the same ghost
   on a dark rounded tile (14×14 inset, 12-wide body)
@@ -794,7 +784,6 @@ The `examples/` folder ships starter SVGs you can copy and edit:
   + `prefers-color-scheme` dark-mode variant
 - `examples/pixel_dango.svg` — Option C, dango skewer
 - `examples/pixel_frog.svg` — Option C, frog face
-- `examples/text_sticker.svg` — Option D, 3-letter sticker
 
 Copy + rename + edit the colors and grid positions. They're 13-20 lines
 each.

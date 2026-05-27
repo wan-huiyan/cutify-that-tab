@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" shape-rendering="crispEdges">
+  <!-- ears outer (amber-800) -->
+  <rect x="3" y="3" width="2" height="2" fill="#92400e"/>
+  <rect x="11" y="3" width="2" height="2" fill="#92400e"/>
+  <!-- ear inner (amber-500) -->
+  <rect x="4" y="4" width="1" height="1" fill="#f59e0b"/>
+  <rect x="11" y="4" width="1" height="1" fill="#f59e0b"/>
+  <!-- head (amber-600) -->
+  <rect x="3" y="5" width="10" height="9" fill="#d97706"/>
+  <!-- snout (cream: yellow-200) -->
+  <rect x="6" y="10" width="4" height="3" fill="#fde68a"/>
+  <!-- eyes -->
+  <rect x="5" y="8" width="1" height="2" fill="#1f2937"/>
+  <rect x="10" y="8" width="1" height="2" fill="#1f2937"/>
+  <!-- nose -->
+  <rect x="7" y="10" width="2" height="1" fill="#1f2937"/>
+  <!-- mouth -->
+  <rect x="7" y="12" width="1" height="1" fill="#92400e"/>
+  <rect x="8" y="12" width="1" height="1" fill="#92400e"/>
+</svg>
