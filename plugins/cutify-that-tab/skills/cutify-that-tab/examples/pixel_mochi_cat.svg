@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" shape-rendering="crispEdges">
+  <!-- ears (pink-500) -->
+  <rect x="3"  y="3" width="2" height="2" fill="#ec4899"/>
+  <rect x="11" y="3" width="2" height="2" fill="#ec4899"/>
+  <!-- head (pink-300 — per v1.6 R1 contrast threshold: *-300 reads on Chrome cream + grey + dark tabs) -->
+  <rect x="3" y="5" width="10" height="9" fill="#f9a8d4"/>
+  <!-- eyes -->
+  <rect x="5"  y="8" width="1" height="2" fill="#1f2937"/>
+  <rect x="10" y="8" width="1" height="2" fill="#1f2937"/>
+  <!-- blush (pink-600) -->
+  <rect x="4"  y="10" width="1" height="1" fill="#db2777"/>
+  <rect x="11" y="10" width="1" height="1" fill="#db2777"/>
+  <!-- mouth -->
+  <rect x="7" y="10" width="1" height="1" fill="#1f2937"/>
+  <rect x="8" y="10" width="1" height="1" fill="#1f2937"/>
+</svg>

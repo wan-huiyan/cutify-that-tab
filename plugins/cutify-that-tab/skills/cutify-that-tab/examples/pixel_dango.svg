@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" shape-rendering="crispEdges">
+  <!-- skewer -->
+  <rect x="7" y="2" width="2" height="3" fill="#a3a3a3"/>
+  <!-- pink ball -->
+  <rect x="6" y="5" width="4" height="3" fill="#fda4af"/>
+  <rect x="7" y="6" width="1" height="1" fill="#fff" opacity="0.6"/>
+  <!-- white ball -->
+  <rect x="6" y="8" width="4" height="3" fill="#fff"/>
+  <rect x="7" y="9" width="1" height="1" fill="#fda4af" opacity="0.6"/>
+  <!-- green ball -->
+  <rect x="6" y="11" width="4" height="3" fill="#bef264"/>
+</svg>

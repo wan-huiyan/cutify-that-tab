@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" shape-rendering="crispEdges">
+  <!-- 14×14 dark rounded tile, inset 1 cell on all sides (the OUTER margin) -->
+  <!-- so the tile doesn't blend with the browser tab's own rounded chrome.   -->
+  <rect x="1" y="1" width="14" height="14" rx="3" fill="#121216"/>
+  <!-- Compressed 3-row top dome inside the tile: 4 → 8 → 12 wide. -->
+  <rect x="6" y="1" width="4" height="1" fill="#ffffff"/>
+  <rect x="4" y="2" width="8" height="1" fill="#ffffff"/>
+  <!-- 12-wide body (cols 2-13, rows 3-12) — INNER padding of 1 cell on -->
+  <!-- each side gives the mascot room to breathe inside the tile.        -->
+  <rect x="2" y="3" width="12" height="10" fill="#ffffff"/>
+  <!-- 3 symmetric 2-wide bottom bumps at row 13 (cols 2-3, 7-8, 12-13). -->
+  <rect x="2"  y="13" width="2" height="1" fill="#ffffff"/>
+  <rect x="7"  y="13" width="2" height="1" fill="#ffffff"/>
+  <rect x="12" y="13" width="2" height="1" fill="#ffffff"/>
+  <!-- Eyes (1×2 black at col 5 + 10, rows 6-7). -->
+  <rect x="5"  y="6" width="1" height="2" fill="#1a1a22"/>
+  <rect x="10" y="6" width="1" height="2" fill="#1a1a22"/>
+  <!-- Cheek blush (2×1 soft pink at col 5-6 + 9-10, row 9). -->
+  <rect x="5" y="9" width="2" height="1" fill="#f4a8b8"/>
+  <rect x="9" y="9" width="2" height="1" fill="#f4a8b8"/>
+</svg>

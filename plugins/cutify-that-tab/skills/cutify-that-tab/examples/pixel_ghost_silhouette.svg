@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" shape-rendering="crispEdges">
+  <!-- Light-mode (default) variant — pair with pixel_ghost_silhouette_dark.svg -->
+  <!-- in the HTML head:                                                          -->
+  <!--   <link rel="icon" type="image/svg+xml" href="/static/favicon.svg" />     -->
+  <!--   <link rel="icon" type="image/svg+xml"                                    -->
+  <!--         href="/static/favicon-dark.svg"                                    -->
+  <!--         media="(prefers-color-scheme: dark)" />                            -->
+  <!-- v1.3 used CSS-in-SVG @media inside this file; Chrome ignores that for     -->
+  <!-- favicons. v1.5 hardcodes the fills + uses two files. See skill changelog. -->
+  <rect x="6" y="1" width="4" height="1" fill="#24292f"/>
+  <rect x="4" y="2" width="8" height="1" fill="#24292f"/>
+  <rect x="2" y="3" width="12" height="3" fill="#24292f"/>
+  <!-- Eye row: body split into 3 rects with 1-cell gaps at col 5 + 10 (cut-outs). -->
+  <rect x="2"  y="6" width="3" height="2" fill="#24292f"/>
+  <rect x="6"  y="6" width="4" height="2" fill="#24292f"/>
+  <rect x="11" y="6" width="3" height="2" fill="#24292f"/>
+  <rect x="2" y="8" width="12" height="5" fill="#24292f"/>
+  <!-- 3 symmetric 2-wide bottom bumps at row 13. -->
+  <rect x="2"  y="13" width="2" height="1" fill="#24292f"/>
+  <rect x="7"  y="13" width="2" height="1" fill="#24292f"/>
+  <rect x="12" y="13" width="2" height="1" fill="#24292f"/>
+  <!-- Pink cheek accent — same in both light and dark files. -->
+  <rect x="5" y="9" width="2" height="1" fill="#f4a8b8"/>
+  <rect x="9" y="9" width="2" height="1" fill="#f4a8b8"/>
+</svg>

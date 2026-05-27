@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" shape-rendering="crispEdges">
+  <!-- eye bumps (top) -->
+  <rect x="3"  y="4" width="2" height="2" fill="#84cc16"/>
+  <rect x="11" y="4" width="2" height="2" fill="#84cc16"/>
+  <!-- eye whites -->
+  <rect x="3"  y="5" width="3" height="2" fill="#fff"/>
+  <rect x="10" y="5" width="3" height="2" fill="#fff"/>
+  <!-- pupils -->
+  <rect x="4"  y="6" width="1" height="1" fill="#1f2937"/>
+  <rect x="11" y="6" width="1" height="1" fill="#1f2937"/>
+  <!-- body -->
+  <rect x="3" y="7"  width="10" height="5" fill="#84cc16"/>
+  <rect x="3" y="12" width="10" height="1" fill="#65a30d"/>
+  <!-- smile -->
+  <rect x="6" y="10" width="4" height="1" fill="#1f2937"/>
+</svg>

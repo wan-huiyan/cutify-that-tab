@@ -1,0 +1,12 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "wan-huiyan-cutify-that-tab",
+  "description": "Cute, hand-authored SVG favicons for web apps — four techniques in a single skill.",
+  "owner": { "name": "Huiyan Wan" },
+  "plugins": [{
+    "name": "cutify-that-tab",
+    "source": "./plugins/cutify-that-tab",
+    "description": "Add a cute SVG favicon: emoji, gradient blob, 16×16 pixel art, or text sticker.",
+    "version": "1.6.0"
+  }]
+}
