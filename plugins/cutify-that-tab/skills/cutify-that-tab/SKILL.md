@@ -16,7 +16,7 @@ description: |
   a corporate/photographic logo — this skill is for hand-authored, cute,
   low-effort icons.
 author: Claude Code
-version: 1.7.0
+version: 1.8.0
 date: 2026-05-27
 ---
 
@@ -692,6 +692,14 @@ tile, not the mascot.
 
 ### Changelog
 
+- **v1.8.0 (2026-05-27):** Expanded Technique B emotion vocabulary. Replaced
+  `blob_mint.svg`'s generic happy face with a wink (kept mint gradient).
+  Added 5 new emotion blobs: `blob_heart_eyes.svg` (in love),
+  `blob_smug.svg` (smirk), `blob_surprise.svg` (gasping with O mouth),
+  `blob_starry.svg` (amazed with 4-point star eyes), `blob_kissy.svg`
+  (wink + puckered lips). Skill now ships 9 gradient-blob variants
+  covering 9 distinct emotions. Useful for picker UIs where the user
+  selects mood/personality before color palette.
 - **v1.7.0 (2026-05-27):** Removed Technique D (text sticker — initials on
   a pastel chip) — too utilitarian for a "make it cute" skill. Added 6
   new pixel-art (Technique C) examples to widen the mascot vocabulary:
@@ -765,10 +773,15 @@ tile, not the mascot.
 
 The `examples/` folder ships starter SVGs you can copy and edit:
 
-- `examples/blob_brand_grad.svg` — Option B with a sunset gradient + face
-- `examples/blob_mint.svg` — Option B in mint/cyan
-- `examples/blob_wide_eye.svg` — Option B with big anime eyes
-- `examples/blob_sleepy.svg` — Option B with sleepy eyes
+- `examples/blob_brand_grad.svg` — Option B, sunset gradient + happy face
+- `examples/blob_mint.svg` — Option B, mint gradient + wink
+- `examples/blob_wide_eye.svg` — Option B, anime/excited (big eyes + blushes)
+- `examples/blob_sleepy.svg` — Option B, sleepy closed-eye arcs
+- `examples/blob_heart_eyes.svg` — Option B, in-love (heart eyes + open smile)
+- `examples/blob_smug.svg` — Option B, smug (half-lidded eyes + smirk)
+- `examples/blob_surprise.svg` — Option B, gasping (round eyes + O mouth)
+- `examples/blob_starry.svg` — Option B, amazed (star eyes + big grin)
+- `examples/blob_kissy.svg` — Option B, kissy (wink + puckered lips + blush)
 - `examples/pixel_mochi_cat.svg` — Option C, the canonical mochi-cat
 - `examples/pixel_bunny.svg` — Option C, peach bunny with pink ears
 - `examples/pixel_bear.svg` — Option C, brown bear with cream snout

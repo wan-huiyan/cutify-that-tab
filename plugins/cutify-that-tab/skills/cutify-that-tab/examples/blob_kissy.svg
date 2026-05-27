@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#fb923c"/>
+      <stop offset="100%" stop-color="#f472b6"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="28" height="28" rx="8" fill="url(#bg)"/>
+  <!-- closed wink eye (left) -->
+  <path d="M10 14.5 Q12 12 14 14.5" stroke="#fff" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+  <!-- open eye (right) -->
+  <circle cx="20" cy="14" r="2" fill="#fff"/>
+  <!-- puckered lips -->
+  <ellipse cx="16" cy="22" rx="1.6" ry="2.2" fill="#fff"/>
+  <!-- blush -->
+  <ellipse cx="8" cy="21" rx="1.5" ry="1" fill="#fda4af" opacity="0.6"/>
+  <ellipse cx="24" cy="21" rx="1.5" ry="1" fill="#fda4af" opacity="0.6"/>
+</svg>

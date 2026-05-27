@@ -22,9 +22,15 @@
   <img src="plugins/cutify-that-tab/skills/cutify-that-tab/examples/pixel_dango.svg" width="64" height="64" alt="dango" style="image-rendering:pixelated"/>
   <img src="plugins/cutify-that-tab/skills/cutify-that-tab/examples/pixel_frog.svg" width="64" height="64" alt="frog" style="image-rendering:pixelated"/>
   <br/>
-  <img src="plugins/cutify-that-tab/skills/cutify-that-tab/examples/blob_mint.svg" width="64" height="64" alt="mint blob"/>
-  <img src="plugins/cutify-that-tab/skills/cutify-that-tab/examples/blob_brand_grad.svg" width="64" height="64" alt="gradient blob"/>
-  <img src="plugins/cutify-that-tab/skills/cutify-that-tab/examples/blob_wide_eye.svg" width="64" height="64" alt="wide-eye blob"/>
+  <img src="plugins/cutify-that-tab/skills/cutify-that-tab/examples/blob_brand_grad.svg" width="64" height="64" alt="happy blob"/>
+  <img src="plugins/cutify-that-tab/skills/cutify-that-tab/examples/blob_mint.svg" width="64" height="64" alt="wink blob"/>
+  <img src="plugins/cutify-that-tab/skills/cutify-that-tab/examples/blob_heart_eyes.svg" width="64" height="64" alt="heart-eyes blob"/>
+  <img src="plugins/cutify-that-tab/skills/cutify-that-tab/examples/blob_smug.svg" width="64" height="64" alt="smug blob"/>
+  <img src="plugins/cutify-that-tab/skills/cutify-that-tab/examples/blob_surprise.svg" width="64" height="64" alt="surprise blob"/>
+  <img src="plugins/cutify-that-tab/skills/cutify-that-tab/examples/blob_starry.svg" width="64" height="64" alt="starry-eyed blob"/>
+  <br/>
+  <img src="plugins/cutify-that-tab/skills/cutify-that-tab/examples/blob_kissy.svg" width="64" height="64" alt="kissy blob"/>
+  <img src="plugins/cutify-that-tab/skills/cutify-that-tab/examples/blob_wide_eye.svg" width="64" height="64" alt="anime blob"/>
   <img src="plugins/cutify-that-tab/skills/cutify-that-tab/examples/blob_sleepy.svg" width="64" height="64" alt="sleepy blob"/>
 </p>
 
@@ -125,14 +131,19 @@ The 16 starter SVGs in `examples/` — each is 13–25 lines, hand-authorable, c
 | `pixel_dango.svg` | dango skewer (three pastel mochi balls) |
 | `pixel_frog.svg` | green frog face |
 
-### Gradient blobs (Technique B)
+### Gradient blobs — 9 emotions (Technique B)
 
-| File | Vibe |
-|---|---|
-| `blob_brand_grad.svg` | sunset gradient blob mascot |
-| `blob_mint.svg` | mint/cyan blob |
-| `blob_wide_eye.svg` | anime-eye blob |
-| `blob_sleepy.svg` | sleepy blob with closed eyes |
+| File | Gradient | Emotion |
+|---|---|---|
+| `blob_brand_grad.svg` | sunset (orange → red → pink → indigo) | 😊 happy |
+| `blob_mint.svg` | mint → cyan | 😉 wink |
+| `blob_heart_eyes.svg` | pink → magenta | 😍 in love |
+| `blob_smug.svg` | lavender → violet | 😏 smug / smirk |
+| `blob_surprise.svg` | cyan → teal | 😮 gasping (O mouth) |
+| `blob_starry.svg` | yellow → orange | 🤩 amazed / starry-eyed |
+| `blob_kissy.svg` | coral → pink | 😘 kissy (wink + puckered lips + blush) |
+| `blob_wide_eye.svg` | radial amber | 🥺 anime / big-eyed |
+| `blob_sleepy.svg` | violet → indigo | 😌 sleepy (closed arcs) |
 
 ## Limitations
 
@@ -164,6 +175,7 @@ None at runtime — the output is a single SVG file. The skill assumes the user'
 
 ## Version history
 
+- **v1.8.0** (2026-05-27) — Expanded Technique B emotion vocabulary: swapped `blob_mint` to a wink and added 5 new emotion blobs (heart-eyes, smug, surprise, starry, kissy). Gradient blobs now cover 9 distinct emotions, useful for mood-picker UIs.
 - **v1.7.0** (2026-05-27) — Dropped Technique D (text sticker); added 6 new pixel-art mascots (bunny, bear, chick, bee, strawberry, cloud) so the skill ships with 13 ready-to-edit pixel-art mascots and 4 gradient blobs.
 - **v1.6.0** (2026-05-27) — Tightened R1 contrast guidance: tint body color should be ≥30 lightness points below the brightest tab background it must survive (Tailwind `*-300` for cream/white active tabs); `*-50` pastels vanish on cream tabs.
 - **v1.5.0** (2026-05-27) — Flipped the dark-mode recipe to two files + `<link media>` after empirical finding that Chrome does NOT evaluate CSS-in-SVG `@media (prefers-color-scheme: dark)` for favicons. Browser-support matrix added.

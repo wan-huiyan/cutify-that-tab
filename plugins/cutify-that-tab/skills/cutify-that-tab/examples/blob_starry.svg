@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#fde047"/>
+      <stop offset="100%" stop-color="#f97316"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="28" height="28" rx="8" fill="url(#bg)"/>
+  <!-- left star eye (4-point sparkle) -->
+  <path d="M12 11 L 12 17 M 9 14 L 15 14 M 10 12 L 14 16 M 14 12 L 10 16"
+        stroke="#fff" stroke-width="1.2" stroke-linecap="round"/>
+  <!-- right star eye -->
+  <path d="M20 11 L 20 17 M 17 14 L 23 14 M 18 12 L 22 16 M 22 12 L 18 16"
+        stroke="#fff" stroke-width="1.2" stroke-linecap="round"/>
+  <!-- big happy smile -->
+  <path d="M11 21 Q16 26 21 21" stroke="#fff" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+</svg>
