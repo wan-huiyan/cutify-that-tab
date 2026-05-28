@@ -1,12 +1,12 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "wan-huiyan-cutify-that-tab",
-  "description": "Cute, hand-authored SVG favicons for web apps — three techniques, 19 pixel-art mascots, and 13 emotion-variant gradient blobs in a single skill.",
+  "description": "Cute, hand-authored SVG favicons for web apps — three techniques, 56 pixel-art mascots, and 22 emotion-variant gradient blobs in a single skill.",
   "owner": { "name": "Huiyan Wan" },
   "plugins": [{
     "name": "cutify-that-tab",
     "source": "./plugins/cutify-that-tab",
     "description": "Add a cute SVG favicon: emoji, gradient blob (happy / wink / heart-eyes / smug / surprised / starry / kissy / sleepy / anime), or 16×16 pixel-art mascot.",
-    "version": "1.9.0"
+    "version": "1.10.0"
   }]
 }

@@ -16,7 +16,7 @@ description: |
   a corporate/photographic logo — this skill is for hand-authored, cute,
   low-effort icons.
 author: Claude Code
-version: 1.9.0
+version: 1.10.0
 date: 2026-05-28
 ---
 
@@ -692,6 +692,18 @@ tile, not the mascot.
 
 ### Changelog
 
+- **v1.10.0 (2026-05-28):** Big catalog expansion. Dropped 4 mascots
+  that didn't land (`blob_hugg`, `pixel_cat_meow`, `pixel_hyper_cat`,
+  `pixel_monkey`). Added 50 originals across five families: 15 animals
+  (panda, penguin, fox, owl, pig, duckling, cow, puppy, seal, otter,
+  hedgehog, axolotl, capybara, corgi, quokka), 10 sweets/food (donut,
+  cupcake, ice cream, boba, macaron, pancakes, onigiri, sushi, taiyaki,
+  pudding), 10 nature/objects (mushroom, rainbow, star face, moon, sun,
+  flower, cactus, tea cup, planet, acorn), 5 silhouettes (cat, bunny,
+  heart, star, cloud), and 10 emotion blobs (sparkles, giggle, blush,
+  dreamy, proud, party, cozy, wave, bubble heart, thinking). Examples
+  catalog now 22 blob + 56 pixel = 78 SVGs.
+
 - **v1.9.0 (2026-05-28):** Added 10 new starter mascots inspired by a
   Slack emoji wishlist (IP-protected characters skipped — designs are
   original): pixel `sheep`, `cat_meow`, `cat_love`, `shy_cat`,
@@ -780,43 +792,58 @@ tile, not the mascot.
 
 The `examples/` folder ships starter SVGs you can copy and edit:
 
-- `examples/blob_brand_grad.svg` — Option B, sunset gradient + happy face
-- `examples/blob_mint.svg` — Option B, mint gradient + wink
-- `examples/blob_wide_eye.svg` — Option B, anime/excited (big eyes + blushes)
-- `examples/blob_sleepy.svg` — Option B, sleepy closed-eye arcs
-- `examples/blob_heart_eyes.svg` — Option B, in-love (heart eyes + open smile)
-- `examples/blob_smug.svg` — Option B, smug (half-lidded eyes + smirk)
-- `examples/blob_surprise.svg` — Option B, gasping (round eyes + O mouth)
-- `examples/blob_starry.svg` — Option B, amazed (star eyes + big grin)
-- `examples/blob_kissy.svg` — Option B, kissy (wink + puckered lips + blush)
-- `examples/pixel_mochi_cat.svg` — Option C, the canonical mochi-cat
-- `examples/pixel_bunny.svg` — Option C, peach bunny with pink ears
-- `examples/pixel_bear.svg` — Option C, brown bear with cream snout
-- `examples/pixel_chick.svg` — Option C, yellow chick with orange beak + feet
-- `examples/pixel_bee.svg` — Option C, striped bee with sky-blue wings
-- `examples/pixel_strawberry.svg` — Option C, red strawberry with seeds + face
-- `examples/pixel_cloud.svg` — Option C, sky-blue cloud with pink blush
-- `examples/pixel_ghost.svg` — Option C, friendly ghost (transparent bg)
-- `examples/pixel_ghost_tile.svg` — Option C-variant 1, the same ghost
-  on a dark rounded tile (14×14 inset, 12-wide body)
-- `examples/pixel_ghost_silhouette.svg` — Option C-variant 2, single-color
-  GitHub-octocat-style silhouette with cut-out eyes + pink cheek accent
-  + `prefers-color-scheme` dark-mode variant
-- `examples/pixel_dango.svg` — Option C, dango skewer
-- `examples/pixel_frog.svg` — Option C, frog face
-- `examples/pixel_sheep.svg` — Option C, fluffy sheep with grey face + black legs
-- `examples/pixel_cat_meow.svg` — Option C, orange cat with open meow mouth
-- `examples/pixel_cat_love.svg` — Option C, grey cat with floating heart above
-- `examples/pixel_shy_cat.svg` — Option C, lavender cat with big blush + averted eyes
-- `examples/pixel_hyper_cat.svg` — Option C, white cat with sparkly eyes + motion dashes
-- `examples/pixel_monkey.svg` — Option C, brown monkey with pleading wet eyes
-- `examples/blob_hugg.svg` — Option B, warm orange blob with crossed hugging arms
-- `examples/blob_woah.svg` — Option B, purple blob with raised brows + O mouth (surprise)
-- `examples/blob_cheer.svg` — Option B, yellow blob with arms-up Y pose + sparkles
-- `examples/blob_love_rays.svg` — Option B, radiating heart (rays + highlight, no face)
+**Gradient blobs (Option B — 22 emotion variants):**
 
-Copy + rename + edit the colors and grid positions. They're 13-20 lines
-each.
+- `blob_brand_grad.svg` — happy, sunset gradient
+- `blob_mint.svg` — wink, mint→cyan
+- `blob_heart_eyes.svg` — in love
+- `blob_smug.svg` — smug / smirk
+- `blob_surprise.svg` — gasping (O mouth)
+- `blob_starry.svg` — amazed / starry-eyed
+- `blob_kissy.svg` — kissy + blush
+- `blob_wide_eye.svg` — anime / big-eyed
+- `blob_sleepy.svg` — closed-arc sleepy
+- `blob_woah.svg` — raised brows + O mouth
+- `blob_cheer.svg` — arms-up Y + sparkles
+- `blob_love_rays.svg` — radiating heart (no face)
+- `blob_sparkles.svg` — closed-eye smile + sparkles around
+- `blob_giggle.svg` — open laugh + cheek blush
+- `blob_blush.svg` — quiet shy + big cheek blush
+- `blob_dreamy.svg` — half-closed eyes + floating stars
+- `blob_proud.svg` — closed-eye smile + sparkle accent
+- `blob_party.svg` — tongue out + confetti
+- `blob_cozy.svg` — sleepy + steam wisps
+- `blob_wave.svg` — waving arm raised
+- `blob_bubble_heart.svg` — speech-bubble outline + heart
+- `blob_thinking.svg` — raised brow + thought-bubble
+
+**Pixel-art mascots (Option C — 56 starter mascots):**
+
+*Animals (24):* `pixel_mochi_cat`, `pixel_bunny`, `pixel_bear`, `pixel_chick`,
+`pixel_bee`, `pixel_frog`, `pixel_sheep`, `pixel_cat_love`, `pixel_shy_cat`,
+`pixel_panda`, `pixel_penguin`, `pixel_fox`, `pixel_owl`, `pixel_pig`,
+`pixel_duckling`, `pixel_cow`, `pixel_puppy`, `pixel_seal`, `pixel_otter`,
+`pixel_hedgehog`, `pixel_axolotl`, `pixel_capybara`, `pixel_corgi`,
+`pixel_quokka`.
+
+*Sweets & food (12):* `pixel_strawberry`, `pixel_dango`, `pixel_donut`,
+`pixel_cupcake`, `pixel_ice_cream`, `pixel_boba`, `pixel_macaron`,
+`pixel_pancakes`, `pixel_onigiri`, `pixel_sushi`, `pixel_taiyaki`,
+`pixel_pudding`.
+
+*Nature & objects (11):* `pixel_cloud`, `pixel_mushroom`, `pixel_rainbow`,
+`pixel_star_face`, `pixel_moon`, `pixel_sun`, `pixel_flower`, `pixel_cactus`,
+`pixel_tea_cup`, `pixel_planet`, `pixel_acorn`.
+
+*Ghosts (4):* `pixel_ghost`, `pixel_ghost_tile` (C-variant 1, dark tile),
+`pixel_ghost_silhouette` (C-variant 2, single-color cut-out),
+`pixel_ghost_silhouette_dark` (dark-mode pair).
+
+*Silhouettes (5):* `pixel_cat_silhouette`, `pixel_bunny_silhouette`,
+`pixel_heart_silhouette`, `pixel_star_silhouette`, `pixel_cloud_silhouette`.
+
+Copy + rename + edit the colors and grid positions. They're 13-25 lines
+each. See `README.md` for inline preview thumbnails of all 78.
 
 ## See also
 
