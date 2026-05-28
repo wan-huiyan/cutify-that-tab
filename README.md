@@ -115,45 +115,45 @@ The 32 starter SVGs in `examples/` — each is 13–25 lines, hand-authorable, c
 
 ### Pixel-art mascots (Technique C)
 
-| File | Vibe |
-|---|---|
-| `pixel_mochi_cat.svg` | classic pink mochi cat, transparent bg |
-| `pixel_bunny.svg` | peach bunny with pink ears |
-| `pixel_bear.svg` | brown bear with cream snout |
-| `pixel_chick.svg` | yellow chick with orange beak + feet |
-| `pixel_bee.svg` | striped bee with sky-blue wings |
-| `pixel_strawberry.svg` | red strawberry with seeds and a little face |
-| `pixel_cloud.svg` | sky-blue cloud with pink blush |
-| `pixel_ghost.svg` | friendly ghost, transparent bg |
-| `pixel_ghost_tile.svg` | C-variant 1 — ghost on dark rounded tile (14×14 inset) |
-| `pixel_ghost_silhouette.svg` | C-variant 2 — GitHub-octocat-style silhouette with cut-out eyes |
-| `pixel_ghost_silhouette_dark.svg` | the dark-mode pair for the above |
-| `pixel_dango.svg` | dango skewer (three pastel mochi balls) |
-| `pixel_frog.svg` | green frog face |
-| `pixel_sheep.svg` | fluffy sheep with grey face + black legs |
-| `pixel_cat_meow.svg` | orange cat, closed happy eyes + open meow mouth |
-| `pixel_cat_love.svg` | grey cat with a floating pink heart above |
-| `pixel_shy_cat.svg` | lavender cat with big blush + averted eyes |
-| `pixel_hyper_cat.svg` | white cat with sparkly eyes + yellow motion dashes |
-| `pixel_monkey.svg` | brown monkey with big pleading wet eyes |
+| Preview | File | Vibe |
+|---|---|---|
+| <img src="plugins/cutify-that-tab/skills/cutify-that-tab/examples/pixel_mochi_cat.svg" width="56" alt="mochi cat"> | `pixel_mochi_cat.svg` | classic pink mochi cat, transparent bg |
+| <img src="plugins/cutify-that-tab/skills/cutify-that-tab/examples/pixel_bunny.svg" width="56" alt="bunny"> | `pixel_bunny.svg` | peach bunny with pink ears |
+| <img src="plugins/cutify-that-tab/skills/cutify-that-tab/examples/pixel_bear.svg" width="56" alt="bear"> | `pixel_bear.svg` | brown bear with cream snout |
+| <img src="plugins/cutify-that-tab/skills/cutify-that-tab/examples/pixel_chick.svg" width="56" alt="chick"> | `pixel_chick.svg` | yellow chick with orange beak + feet |
+| <img src="plugins/cutify-that-tab/skills/cutify-that-tab/examples/pixel_bee.svg" width="56" alt="bee"> | `pixel_bee.svg` | striped bee with sky-blue wings |
+| <img src="plugins/cutify-that-tab/skills/cutify-that-tab/examples/pixel_strawberry.svg" width="56" alt="strawberry"> | `pixel_strawberry.svg` | red strawberry with seeds and a little face |
+| <img src="plugins/cutify-that-tab/skills/cutify-that-tab/examples/pixel_cloud.svg" width="56" alt="cloud"> | `pixel_cloud.svg` | sky-blue cloud with pink blush |
+| <img src="plugins/cutify-that-tab/skills/cutify-that-tab/examples/pixel_ghost.svg" width="56" alt="ghost"> | `pixel_ghost.svg` | friendly ghost, transparent bg |
+| <img src="plugins/cutify-that-tab/skills/cutify-that-tab/examples/pixel_ghost_tile.svg" width="56" alt="ghost on tile"> | `pixel_ghost_tile.svg` | C-variant 1 — ghost on dark rounded tile (14×14 inset) |
+| <img src="plugins/cutify-that-tab/skills/cutify-that-tab/examples/pixel_ghost_silhouette.svg" width="56" alt="ghost silhouette"> | `pixel_ghost_silhouette.svg` | C-variant 2 — GitHub-octocat-style silhouette with cut-out eyes |
+| <img src="plugins/cutify-that-tab/skills/cutify-that-tab/examples/pixel_ghost_silhouette_dark.svg" width="56" alt="ghost silhouette dark"> | `pixel_ghost_silhouette_dark.svg` | the dark-mode pair for the above |
+| <img src="plugins/cutify-that-tab/skills/cutify-that-tab/examples/pixel_dango.svg" width="56" alt="dango"> | `pixel_dango.svg` | dango skewer (three pastel mochi balls) |
+| <img src="plugins/cutify-that-tab/skills/cutify-that-tab/examples/pixel_frog.svg" width="56" alt="frog"> | `pixel_frog.svg` | green frog face |
+| <img src="plugins/cutify-that-tab/skills/cutify-that-tab/examples/pixel_sheep.svg" width="56" alt="sheep"> | `pixel_sheep.svg` | fluffy sheep with grey face + black legs |
+| <img src="plugins/cutify-that-tab/skills/cutify-that-tab/examples/pixel_cat_meow.svg" width="56" alt="meow cat"> | `pixel_cat_meow.svg` | orange cat, closed happy eyes + open meow mouth |
+| <img src="plugins/cutify-that-tab/skills/cutify-that-tab/examples/pixel_cat_love.svg" width="56" alt="cat with heart"> | `pixel_cat_love.svg` | grey cat with a floating pink heart above |
+| <img src="plugins/cutify-that-tab/skills/cutify-that-tab/examples/pixel_shy_cat.svg" width="56" alt="shy cat"> | `pixel_shy_cat.svg` | lavender cat with big blush + averted eyes |
+| <img src="plugins/cutify-that-tab/skills/cutify-that-tab/examples/pixel_hyper_cat.svg" width="56" alt="hyper cat"> | `pixel_hyper_cat.svg` | white cat with sparkly eyes + yellow motion dashes |
+| <img src="plugins/cutify-that-tab/skills/cutify-that-tab/examples/pixel_monkey.svg" width="56" alt="monkey"> | `pixel_monkey.svg` | brown monkey with big pleading wet eyes |
 
 ### Gradient blobs — 13 emotions (Technique B)
 
-| File | Gradient | Emotion |
-|---|---|---|
-| `blob_brand_grad.svg` | sunset (orange → red → pink → indigo) | 😊 happy |
-| `blob_mint.svg` | mint → cyan | 😉 wink |
-| `blob_heart_eyes.svg` | pink → magenta | 😍 in love |
-| `blob_smug.svg` | lavender → violet | 😏 smug / smirk |
-| `blob_surprise.svg` | cyan → teal | 😮 gasping (O mouth) |
-| `blob_starry.svg` | yellow → orange | 🤩 amazed / starry-eyed |
-| `blob_kissy.svg` | coral → pink | 😘 kissy (wink + puckered lips + blush) |
-| `blob_wide_eye.svg` | radial amber | 🥺 anime / big-eyed |
-| `blob_sleepy.svg` | violet → indigo | 😌 sleepy (closed arcs) |
-| `blob_hugg.svg` | amber → orange | 🤗 hugging (crossed arms + blush) |
-| `blob_woah.svg` | lavender → violet | 😲 surprised (raised brows + O mouth) |
-| `blob_cheer.svg` | yellow → amber | 🙌 cheering (arms-up Y + sparkles) |
-| `blob_love_rays.svg` | n/a (radiating heart, no face) | ❤️ radiating love |
+| Preview | File | Gradient | Emotion |
+|---|---|---|---|
+| <img src="plugins/cutify-that-tab/skills/cutify-that-tab/examples/blob_brand_grad.svg" width="56" alt="happy blob"> | `blob_brand_grad.svg` | sunset (orange → red → pink → indigo) | 😊 happy |
+| <img src="plugins/cutify-that-tab/skills/cutify-that-tab/examples/blob_mint.svg" width="56" alt="wink blob"> | `blob_mint.svg` | mint → cyan | 😉 wink |
+| <img src="plugins/cutify-that-tab/skills/cutify-that-tab/examples/blob_heart_eyes.svg" width="56" alt="heart eyes blob"> | `blob_heart_eyes.svg` | pink → magenta | 😍 in love |
+| <img src="plugins/cutify-that-tab/skills/cutify-that-tab/examples/blob_smug.svg" width="56" alt="smug blob"> | `blob_smug.svg` | lavender → violet | 😏 smug / smirk |
+| <img src="plugins/cutify-that-tab/skills/cutify-that-tab/examples/blob_surprise.svg" width="56" alt="surprised blob"> | `blob_surprise.svg` | cyan → teal | 😮 gasping (O mouth) |
+| <img src="plugins/cutify-that-tab/skills/cutify-that-tab/examples/blob_starry.svg" width="56" alt="starry blob"> | `blob_starry.svg` | yellow → orange | 🤩 amazed / starry-eyed |
+| <img src="plugins/cutify-that-tab/skills/cutify-that-tab/examples/blob_kissy.svg" width="56" alt="kissy blob"> | `blob_kissy.svg` | coral → pink | 😘 kissy (wink + puckered lips + blush) |
+| <img src="plugins/cutify-that-tab/skills/cutify-that-tab/examples/blob_wide_eye.svg" width="56" alt="big-eyed blob"> | `blob_wide_eye.svg` | radial amber | 🥺 anime / big-eyed |
+| <img src="plugins/cutify-that-tab/skills/cutify-that-tab/examples/blob_sleepy.svg" width="56" alt="sleepy blob"> | `blob_sleepy.svg` | violet → indigo | 😌 sleepy (closed arcs) |
+| <img src="plugins/cutify-that-tab/skills/cutify-that-tab/examples/blob_hugg.svg" width="56" alt="hugging blob"> | `blob_hugg.svg` | amber → orange | 🤗 hugging (crossed arms + blush) |
+| <img src="plugins/cutify-that-tab/skills/cutify-that-tab/examples/blob_woah.svg" width="56" alt="woah blob"> | `blob_woah.svg` | lavender → violet | 😲 surprised (raised brows + O mouth) |
+| <img src="plugins/cutify-that-tab/skills/cutify-that-tab/examples/blob_cheer.svg" width="56" alt="cheering blob"> | `blob_cheer.svg` | yellow → amber | 🙌 cheering (arms-up Y + sparkles) |
+| <img src="plugins/cutify-that-tab/skills/cutify-that-tab/examples/blob_love_rays.svg" width="56" alt="radiating heart"> | `blob_love_rays.svg` | n/a (radiating heart, no face) | ❤️ radiating love |
 
 ## Limitations
 
