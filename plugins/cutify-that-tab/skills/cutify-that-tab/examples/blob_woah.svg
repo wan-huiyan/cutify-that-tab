@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#a78bfa"/>
+      <stop offset="100%" stop-color="#7c3aed"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="28" height="28" rx="8" fill="url(#bg)"/>
+  <!-- raised brows -->
+  <path d="M8 9 L 14 8" stroke="#fff" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+  <path d="M18 8 L 24 9" stroke="#fff" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+  <!-- wide surprised eyes -->
+  <circle cx="11" cy="14" r="2.5" fill="#fff"/>
+  <circle cx="21" cy="14" r="2.5" fill="#fff"/>
+  <circle cx="11" cy="14" r="1.1" fill="#1f2937"/>
+  <circle cx="21" cy="14" r="1.1" fill="#1f2937"/>
+  <!-- O mouth -->
+  <ellipse cx="16" cy="22" rx="2.4" ry="3.4" fill="#1f2937"/>
+  <ellipse cx="16" cy="22.5" rx="1.5" ry="2.2" fill="#7c3aed"/>
+</svg>

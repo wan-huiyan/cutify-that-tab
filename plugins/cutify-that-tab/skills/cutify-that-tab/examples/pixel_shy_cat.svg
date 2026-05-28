@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" shape-rendering="crispEdges">
+  <!-- ears (lavender) -->
+  <rect x="3" y="3" width="2" height="2" fill="#a78bfa"/>
+  <rect x="11" y="3" width="2" height="2" fill="#a78bfa"/>
+  <!-- head (lavender-300) -->
+  <rect x="3" y="5" width="10" height="9" fill="#c4b5fd"/>
+  <!-- big blush across cheeks -->
+  <rect x="3" y="9" width="3" height="2" fill="#f472b6" opacity="0.85"/>
+  <rect x="10" y="9" width="3" height="2" fill="#f472b6" opacity="0.85"/>
+  <!-- shy averted eyes -->
+  <rect x="6" y="8" width="1" height="1" fill="#1f2937"/>
+  <rect x="9" y="8" width="1" height="1" fill="#1f2937"/>
+  <!-- wavy little mouth -->
+  <rect x="7" y="11" width="1" height="1" fill="#1f2937"/>
+  <rect x="8" y="12" width="1" height="1" fill="#1f2937"/>
+</svg>

@@ -69,7 +69,7 @@ All three ship as a single SVG file. No `.ico`, no PNG fallbacks, no PWA manifes
 ## What you get
 
 - **`<link rel="icon" type="image/svg+xml">` recipe** — the modern one-liner
-- **16 starter SVGs** in `examples/` — bunny, bear, mochi cat, ghost, chick, bee, strawberry, cloud, dango, frog, plus gradient blobs. Copy + rename + edit colors
+- **32 starter SVGs** in `examples/` — bunny, bear, mochi cat, ghost, chick, bee, strawberry, cloud, dango, frog, sheep, monkey, plus emotion-variant gradient blobs (heart-eyes, smug, surprise, starry, kissy, hugg, woah, cheer, love rays, ...). Copy + rename + edit colors
 - **Live verification loop** — `/tmp/favicon_preview.html` rendering the favicon at 16/32/64/128 px so you iterate against real tab size, not the enlarged SVG
 - **Tab-edge / tab-background diagnosis** — three distinct failure modes (chrome blending, dark-mode mismatch, light-tab silhouette vanish) with decision trees for each
 - **Dark-mode-aware favicons** — the two-file `<link media>` recipe that works in Chrome 92+, Firefox, and Safari (single-file CSS-in-SVG `@media` is ignored by Chrome for favicons — this is documented in the skill)
@@ -111,7 +111,7 @@ Failure #3 is the subtle one: `prefers-color-scheme` does NOT fix it — Chrome 
 
 ## Examples directory
 
-The 16 starter SVGs in `examples/` — each is 13–25 lines, hand-authorable, copy-and-edit:
+The 32 starter SVGs in `examples/` — each is 13–25 lines, hand-authorable, copy-and-edit:
 
 ### Pixel-art mascots (Technique C)
 
@@ -130,8 +130,14 @@ The 16 starter SVGs in `examples/` — each is 13–25 lines, hand-authorable, c
 | `pixel_ghost_silhouette_dark.svg` | the dark-mode pair for the above |
 | `pixel_dango.svg` | dango skewer (three pastel mochi balls) |
 | `pixel_frog.svg` | green frog face |
+| `pixel_sheep.svg` | fluffy sheep with grey face + black legs |
+| `pixel_cat_meow.svg` | orange cat, closed happy eyes + open meow mouth |
+| `pixel_cat_love.svg` | grey cat with a floating pink heart above |
+| `pixel_shy_cat.svg` | lavender cat with big blush + averted eyes |
+| `pixel_hyper_cat.svg` | white cat with sparkly eyes + yellow motion dashes |
+| `pixel_monkey.svg` | brown monkey with big pleading wet eyes |
 
-### Gradient blobs — 9 emotions (Technique B)
+### Gradient blobs — 13 emotions (Technique B)
 
 | File | Gradient | Emotion |
 |---|---|---|
@@ -144,6 +150,10 @@ The 16 starter SVGs in `examples/` — each is 13–25 lines, hand-authorable, c
 | `blob_kissy.svg` | coral → pink | 😘 kissy (wink + puckered lips + blush) |
 | `blob_wide_eye.svg` | radial amber | 🥺 anime / big-eyed |
 | `blob_sleepy.svg` | violet → indigo | 😌 sleepy (closed arcs) |
+| `blob_hugg.svg` | amber → orange | 🤗 hugging (crossed arms + blush) |
+| `blob_woah.svg` | lavender → violet | 😲 surprised (raised brows + O mouth) |
+| `blob_cheer.svg` | yellow → amber | 🙌 cheering (arms-up Y + sparkles) |
+| `blob_love_rays.svg` | n/a (radiating heart, no face) | ❤️ radiating love |
 
 ## Limitations
 
@@ -175,6 +185,7 @@ None at runtime — the output is a single SVG file. The skill assumes the user'
 
 ## Version history
 
+- **v1.9.0** (2026-05-28) — Added 10 new starter mascots (6 pixel + 4 blob) inspired by a Slack emoji wishlist. Pixel: `sheep`, `cat_meow`, `cat_love`, `shy_cat`, `hyper_cat`, `monkey`. Blob: `hugg`, `woah`, `cheer`, `love_rays` (no-face radiating heart). IP-protected source emojis were skipped — all designs are original.
 - **v1.8.0** (2026-05-27) — Expanded Technique B emotion vocabulary: swapped `blob_mint` to a wink and added 5 new emotion blobs (heart-eyes, smug, surprise, starry, kissy). Gradient blobs now cover 9 distinct emotions, useful for mood-picker UIs.
 - **v1.7.0** (2026-05-27) — Dropped Technique D (text sticker); added 6 new pixel-art mascots (bunny, bear, chick, bee, strawberry, cloud) so the skill ships with 13 ready-to-edit pixel-art mascots and 4 gradient blobs.
 - **v1.6.0** (2026-05-27) — Tightened R1 contrast guidance: tint body color should be ≥30 lightness points below the brightest tab background it must survive (Tailwind `*-300` for cream/white active tabs); `*-50` pastels vanish on cream tabs.

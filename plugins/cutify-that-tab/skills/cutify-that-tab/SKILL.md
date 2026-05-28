@@ -16,8 +16,8 @@ description: |
   a corporate/photographic logo — this skill is for hand-authored, cute,
   low-effort icons.
 author: Claude Code
-version: 1.8.0
-date: 2026-05-27
+version: 1.9.0
+date: 2026-05-28
 ---
 
 # Cutify That Tab ✨
@@ -692,6 +692,13 @@ tile, not the mascot.
 
 ### Changelog
 
+- **v1.9.0 (2026-05-28):** Added 10 new starter mascots inspired by a
+  Slack emoji wishlist (IP-protected characters skipped — designs are
+  original): pixel `sheep`, `cat_meow`, `cat_love`, `shy_cat`,
+  `hyper_cat`, `monkey`; blob `hugg`, `woah`, `cheer`, `love_rays`
+  (the last has no face — pure radiating heart). Examples catalog
+  updated.
+
 - **v1.8.0 (2026-05-27):** Expanded Technique B emotion vocabulary. Replaced
   `blob_mint.svg`'s generic happy face with a wink (kept mint gradient).
   Added 5 new emotion blobs: `blob_heart_eyes.svg` (in love),
@@ -797,6 +804,16 @@ The `examples/` folder ships starter SVGs you can copy and edit:
   + `prefers-color-scheme` dark-mode variant
 - `examples/pixel_dango.svg` — Option C, dango skewer
 - `examples/pixel_frog.svg` — Option C, frog face
+- `examples/pixel_sheep.svg` — Option C, fluffy sheep with grey face + black legs
+- `examples/pixel_cat_meow.svg` — Option C, orange cat with open meow mouth
+- `examples/pixel_cat_love.svg` — Option C, grey cat with floating heart above
+- `examples/pixel_shy_cat.svg` — Option C, lavender cat with big blush + averted eyes
+- `examples/pixel_hyper_cat.svg` — Option C, white cat with sparkly eyes + motion dashes
+- `examples/pixel_monkey.svg` — Option C, brown monkey with pleading wet eyes
+- `examples/blob_hugg.svg` — Option B, warm orange blob with crossed hugging arms
+- `examples/blob_woah.svg` — Option B, purple blob with raised brows + O mouth (surprise)
+- `examples/blob_cheer.svg` — Option B, yellow blob with arms-up Y pose + sparkles
+- `examples/blob_love_rays.svg` — Option B, radiating heart (rays + highlight, no face)
 
 Copy + rename + edit the colors and grid positions. They're 13-20 lines
 each.
